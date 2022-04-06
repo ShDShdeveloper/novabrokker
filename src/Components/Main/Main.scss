@@ -1,0 +1,262 @@
+.mainWrapper{
+  width: 99%;
+  .sectionOne{
+    width: 100%;
+    background-color: #F4F4F4;
+    .header{
+      padding: 2% 7%;
+
+     img{
+       z-index: 2;
+       cursor: pointer;
+     }
+    }
+    .boxOne{
+      padding: 0 0 50px 100px;
+      z-index: 5;
+      img{
+        margin-bottom: 80px;
+      }
+      h1{
+        font-size: 90px;
+        color: rgba(39, 45, 78, 1);
+        line-height: 100%;
+      }
+      p{
+        font-size: 18px;
+      }
+      a{
+        z-index: 1111;
+      }
+    }
+    .boxTwo{
+      background-image: url("../../Images/backOne.jpg");
+      background-size: 100% 100%;
+      margin: -7.7% 0 -0.2% -2%;
+      .watchStyle{
+        width: 22%;
+        margin: -8% 28% 0 0;
+      }
+      .locationStyle{
+        width: 7%;
+        margin: 46% 15% 0 0;
+      }
+  }
+
+  }
+  .sectionTwo{
+    padding: 0 7%;
+    h1{
+      text-align: center;
+    }
+    p{
+      font-weight: 600;
+      text-align: center;
+    }
+    .cashBox{
+      width: 100%;
+      margin: 50px auto;
+      background-color: rgba(253, 244, 244, 1);
+      border-radius: 10px;
+      padding: 3% 7%;
+      h4{
+        color: rgba(0, 26, 73, 1);
+        font-weight: bolder;
+        font-size: 30px;
+      }
+      p{
+        font-size: 20px;
+      }
+    }
+    .insurance{
+      padding: 0 20%;
+    }
+    .steps{
+      width: 80%;
+      margin: 5% auto;
+      display: flex;
+     .step{
+       text-align: center;
+       position: relative;
+       h1{
+         width: 60px;
+         height: 60px;
+         padding: 5px 0;
+         color: red;
+         border-radius: 50%;
+         box-shadow: 0 0 3px 0 grey;
+       }
+       hr{
+         position: absolute;
+         width: 55%;
+         height: 1px;
+         right: -27%;
+         margin: 25px 0;
+         box-shadow: 0 0 5px 1px #9d9999;
+       }
+     }
+    }
+    .toFormOne{
+      padding: 1% 5%;
+      border-radius: 20px;
+      background-color: rgba(235, 36, 42, 1);
+    }
+    .toFormTwo{
+      padding: 2% 5%;
+      border: rgba(235, 36, 42, 1) 1px solid;
+      border-radius: 20px;
+    }
+    .aboutForm{
+      color: white;
+      font-size: 12px;
+      margin: 3% 0 0 20%;
+      text-align: left!important;
+    }
+    .openForm{
+      width: 50px;
+      height: 45px;
+      border-radius: 50%;
+      padding-bottom: 55px;
+      margin-top: -20px;
+    }
+  }
+  .contact{
+    background-color: rgba(235, 36, 42, 1);
+    color: white;
+    padding: 3% 5%;
+    p{
+      font-size: 32px;
+    }
+    .inputGroup{
+      background-color: white;
+      width: 280px;
+      height: 55px;
+      border-radius: 55px;
+      padding: 5px 5px 5px 20px;
+      input{
+        width: 190px;
+        border: none;
+        height: 45px;
+        border-radius: 45px;
+        font-size: 21px;
+        &::placeholder{
+          color: #b7b6b6;
+          font-weight: bolder;
+        }
+        &:focus{
+          outline: none;
+        }
+      }
+      img{
+      width: 70px;
+        height: 70px;
+        margin-top: -10px;
+      }
+    }
+  }
+  .sectionThree{
+    padding: 4% 7%;
+    color: rgba(0, 26, 73, 1);
+    .offersStyle{
+      background-color: #F6F6F6;
+      padding: 1% 3%;
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+    .aboutBox{
+      position: relative;
+      background-color: #FAF1F2;
+      padding: 4% 4% 8% 7%;
+      margin: 3% 0;
+
+      border-radius: 20px;
+      h1{
+        color: rgba(0, 26, 73, 1);
+        width: 65%;
+        font-size: 30px;
+        margin: 2% 0;
+      }
+      p{
+        width: 65%;
+        font-size: 20px;
+        margin: 4% 0;
+      }
+      button{
+        padding: 9px 35px;
+        border: none;
+        background-color: rgba(235, 36, 42, 1);
+        color: white;
+        font-size: 25px;
+        border-radius: 25px;
+        margin-bottom: 15px;
+      }
+      img{
+        position: absolute;
+        width: 15%;
+        right: 20%;
+        bottom: -15%;
+        z-index: 0;
+      }
+      .videoStyle{
+        z-index: 111;
+        width: 100%;
+        margin: auto -20% auto 0;
+      }
+    }
+  }
+
+}
+@media (max-width: 768px) {
+  .mainWrapper{
+    .sectionOne{
+     .boxOne{
+       text-align: center;
+       padding: 30px 20px 60px 20px;
+       h1{
+         font-size: 30px!important;
+       }
+       p{
+         font-size: 14px;
+       }
+       button{
+         margin: 10px 0;
+       }
+     }
+      .boxTwo{
+        height: 330px;
+      }
+    }
+    .contact{
+      p{
+        font-size: 20px;
+      }
+    }
+    .aboutBox{
+      h1, p{
+        width: 90% !important;
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1100px) {
+  .sectionOne{
+    .boxOne{
+      padding: 30px 15px;
+      h1{
+        font-size: 50px!important;
+        button{
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+  .aboutBox{
+    h1, p{
+      width: 90% !important;
+    }
+    .videoStyle{
+      width: 120% !important;
+      margin: auto -30% auto -6%!important;
+    }
+  }
+}

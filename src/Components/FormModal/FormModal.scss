@@ -1,0 +1,62 @@
+.toFormOne{
+  padding: 1% 5%;
+  border-radius: 20px;
+  background-color: rgba(235, 36, 42, 1);
+
+}
+h4{
+  color: rgba(0, 26, 73, 1);
+}
+.input{
+  background: #F3F3F3;
+  width: 100%;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+  margin: 10px 0;
+  &:focus{
+    outline: none;
+  }
+  &::placeholder{
+    font-size: 14px;
+    color: #b9b9b9 !important;
+    padding: 0 5px;
+  }
+}
+.sendButton{
+  background-color: rgba(235, 36, 42, 1);
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+  padding: 6px 40px;
+  border: none;
+  border-radius: 40px;
+}
+.toFormTwo{
+  padding: 2% 5%;
+  border: rgba(235, 36, 42, 1) 1px solid;
+  border-radius: 20px;
+}
+.aboutForm{
+  color: white;
+  font-size: 12px;
+  margin: 3% 0 0 20%;
+  text-align: left!important;
+}
+.openForm{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: -20px;
+  h1{
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+}
+.imageBox{
+  width: 100%;
+  background-color: #F3F3F3;
+  padding: 15px;
+}
